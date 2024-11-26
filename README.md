@@ -15,10 +15,10 @@ To run the application, use the following command:
 
 ```bash
 go run main.go --domain <website_domain> [--port <port>]
+```
 
 ### Example
-
-```
+```bash
 docker build -t website-health-checker .
 docker run website-health-checker --domain <website_domain> --port <port>
 docker run website-health-checker --domain google.com --port 80
